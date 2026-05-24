@@ -34,3 +34,18 @@ The project files represent the extracted development state of the Power BI work
 │   ├── DiagramLayout             # Relationship mapping layout for the model view
 │   └── [Content_Types].xml       # Core file package content definitions
 └── README.md                     # Project documentation
+
+📐 Data Model & Measures
+The data engine relies on structured tables joined via relational keys to calculate complex metrics cleanly.
+Core DAX Measures Included:
+* Total_Revenue: Aggregated gross sales derived from line item quantities and product unit prices.
+* Pizza_sold_By_Category_Size: A scoped evaluation measure calculating the proportional distribution of items sold across specific product variations.
+🚀 Business Recommendations
+Based on the dashboard analytics, the following strategic actions are recommended to drive growth and efficiency:
+* Menu and Sizing Optimization: Evaluate inventory controls and ingredient staging protocols for the specific pizza categories and sizes driving the highest volume to minimize waist during peak hours.
+* Targeted Customer Loyalty Campaigns: Launch specialized promotion bundles focused on high-volume, low-barrier categories (like the 'Classic' or individual lunch-sized variants) to maximize repeat order frequencies.
+* Operational Focus: Concentrate marketing spend and delivery staffing resources on peak order hours identified in the metrics to optimize delivery times and enhance overall conversion rates.
+📬 Contact
+* Author: OJO GOODNESS
+* LinkedIn: ojo-goodness-875ab5278
+* Email: ojogoodness91@gmail.com
